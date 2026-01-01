@@ -12,15 +12,17 @@ body {
 }
 
 section {
-    padding: 80px 10%;
+    padding: 60px 10%;
 }
 
+
 .hero {
-    min-height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
+
 
 .hero-header {
     display: flex;
@@ -42,9 +44,9 @@ section {
 }
 
 .hero p {
-    margin: 14px 0 26px;
-    color: #aaa;
+    margin-bottom: 20px;
 }
+
 
 .btn {
     width: fit-content;
@@ -113,3 +115,4 @@ footer {
     color: #777;
     font-size: 0.9rem;
 }
+
